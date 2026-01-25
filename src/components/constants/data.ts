@@ -2,35 +2,39 @@
 // Update the values to personalize your portfolio.
 
 export const ABOUT_ME = {
-  name: "Your Name",
+  name: "Anjali Gupta",
   title: "Software Developer",
-  location: "Your Location",
-  email: "your.email@example.com",
+  location: "New Delhi, IN",
+  email: "anjaliramesh14012005@gmail.com",
   description: [
-    "Write a short introduction about yourself!",
-    "Mention your interests, what you love to build, or your coding journey.",
-    "You can add more lines or remove these as you like.",
+    "Hey there! 👋 I’m Anjali, a third-year BTech student and aspiring software engineer who enjoys building practical, user-focused web applications. I primarily work with React and JavaScript, and I’m passionate about turning ideas into clean, functional products while continuously improving my problem-solving skills.",
+
+    "I’ve gained hands-on experience through academic projects, hackathons, and virtual internships, where I’ve worked on real-world problem statements and collaborative development. I enjoy learning new technologies, refining my fundamentals, and iterating on projects to make them more scalable and efficient.",
+
+    "Tech Stack: JavaScript, React, HTML, CSS, Tailwind",
+    "Focus Areas: Web Development, DSA, CS Fundamentals",
+    "Tools: VS Code, GitHub, Vite",
   ],
-  profileImage: "/profile-image.webp", // Replace with your profile image
+  profileImage: "/profile.jpg", // Replace with your profile image
   profileGif: "/profile-gif.gif", // Replace with your personalised gif
 };
 
 export const USER_NAMES = {
-  githubUsername: "your-github-username",
-  leetcodeUsername: "your-leetcode-username", // remove or keep blank if you don't have a LeetCode profile
+  githubUsername: "https://github.com/AnjaliiRamesh",
+  leetcodeUsername: "https://leetcode.com/u/anjaliramesh14012005/", // remove or keep blank if you don't have a LeetCode profile
   hashnodeUsername: "your-hashnode-username", // remove or keep blank if you don't have a Hashnode profile
 };
 
 export const SOCIAL_LINKS = {
-  github: "https://github.com/your-github-username",
-  linkedin: "https://linkedin.com/in/your-linkedin",
+  github: "https://github.com/AnjaliiRamesh",
+  linkedin: "https://www.linkedin.com/in/anjali-gupta-496562246/",
   twitter: "https://twitter.com/your-twitter",
-  leetcode: "https://leetcode.com/your-leetcode",
-  peerlist: "https://peerlist.io/your-peerlist", // remove or keep blank if you don't have a Peerlist profile
+  leetcode: "https://leetcode.com/u/anjaliramesh14012005/",
+  // peerlist: "https://peerlist.io/your-peerlist", // remove or keep blank if you don't have a Peerlist profile
   instagram: "https://instagram.com/your-instagram",
-  email: "mailto:your.email@example.com",
-  blog: "https://yourblog.com", // remove if you don't have a blog
-  resume: "https://your-resume-drive-link.com",
+  email: "mailto:anjaliramesh14012005@gmail.com",
+  // blog: "https://yourblog.com", // remove if you don't have a blog
+  resume: "href=https://drive.google.com/file/d/1j6xmVUppn8PkFz5wADlURM-FMNfJyucZ/view?usp=drivesdk",
 };
 
 // Contact form endpoint (update with your own Formspree endpoint)
@@ -38,33 +42,34 @@ export const FORM_ENDPOINT = "https://formspree.io/f/your-form-id";
 
 export const SKILLS = { // Keep only the skills you want to showcase and remove the rest
   frontend: [
-    "HTML", "CSS", "JavaScript", "TypeScript", "React", "Next.js", "Vue.js", "Angular", "Redux", "TailwindCSS", "Bootstrap", "Sass", "Less", "jQuery"
+    "HTML", "CSS", "JavaScript", "TypeScript", "React", "Next.js",  "TailwindCSS", "Bootstrap", 
   ],
   backend: [
-    "Node.js", "Express.js", "NestJS", "Django", "Flask", "Spring Boot", "Ruby on Rails", "Laravel", "ASP.NET", "FastAPI"
+    "Node.js", "Express.js", "NestJS",  "FastAPI"
   ],
   databases: [
-    "MongoDB", "MySQL", "PostgreSQL", "SQLite", "Redis", "Firebase", "Supabase"
+    "MongoDB", "MySQL", "Firebase", "Supabase"
   ],
   languages: [
-    "C", "C++", "C#", "Java", "Python", "JavaScript", "TypeScript", "Go", "Rust", "Ruby", "PHP", "Kotlin", "Swift", "Dart", "Scala"
+    "Java", "JavaScript", "TypeScript", 
   ],
   cloudDevOps: [
-    "AWS", "Azure", "GCP", "Docker", "Kubernetes", "Vercel", "Netlify", "Heroku", "GitHub Actions", "Jenkins"
+    "AWS", "Azure", 
   ],
   tools: [
-    "VS Code", "Git", "GitHub", "GitLab", "Bitbucket", "Postman", "Figma", "Vite", "Webpack", "Babel", "Jest", "Linux", "Windows", "MacOS"
+    "VS Code", "Git", "GitHub", "GitLab", , "Postman", "Figma", "Vite", "Windows", 
   ],
 };
 
 export const PROJECTS = [
   {
-    name: "Project 1",
-    description: "Describe your project 1 here. Example: A web app for tracking habits.",
-    tech: ["React", "TypeScript"],
-    link: "https://yourproject1-link.com",
-    github: "https://github.com/yourusername/project1",
+    name: "Randomly",
+    description: "A real-time video calling web application that randomly connects users for spontaneous video chats, fostering unexpected connections and conversations. Built with Next.js and TypeScript for a seamless, responsive experience, the app eliminates the need for sign-ups or complex setups—users simply click to connect and start chatting instantly. ",
+    tech: ["Next.js", "TypeScript"],
+    link: "https://randomly-neon.vercel.app/",
+    github: "https://github.com/AnjaliiRamesh/Video-chat",
   },
+
   {
     name: "Project 2",
     description: "Describe your project 2 here. Example: An e-commerce site for books.",
