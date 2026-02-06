@@ -71,11 +71,11 @@ export const PROJECTS = [
   },
 
   {
-    name: "Project 2",
-    description: "Describe your project 2 here. Example: An e-commerce site for books.",
-    tech: ["Next.js", "Tailwind CSS"],
-    link: "https://yourproject2-link.com",
-    github: "https://github.com/yourusername/project2",
+    name: "Taskora",
+    description: "A task management application. where you can create , delete and edit your task",
+    tech: ["Next.js", "Tailwind.CSS"],
+    link: "https://task-management-seven-ashen.vercel.app/",
+    github: "https://github.com/AnjaliiRamesh/TaskManagement",
   },
   // Add more projects as needed
 ];
