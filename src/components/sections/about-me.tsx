@@ -29,11 +29,11 @@ const SOCIAL_BUTTONS = [
     label: "LeetCode",
     icon: <SiLeetcode className="w-5 h-5" />,
   },
-  {
-    href: SOCIAL_LINKS.peerlist,
-    label: "Peerlist",
-    icon: <SiPeerlist className="w-5 h-5" />,
-  },
+  // {
+  //   href: SOCIAL_LINKS.peerlist,
+  //   label: "Peerlist",
+  //   icon: <SiPeerlist className="w-5 h-5" />,
+  // },
   {
     href: SOCIAL_LINKS.instagram,
     label: "Instagram",

@@ -31,7 +31,7 @@ export const SOCIAL_LINKS = {
   leetcode: "https://leetcode.com/u/anjaliramesh14012005/",
   instagram: "https://instagram.com/your-instagram",
   email: "mailto:anjaliramesh14012005@gmail.com",
-  peerlist: "https://peerlist.io/yourusername", // ✅ add this
+  // peerlist: "https://peerlist.io/yourusername", // ✅ add this
   // blog: "https://yourblog.com", 
   resume: "https://drive.google.com/file/d/1-SqbE-Ri9dKdWEYYwDFwkSQo9IPqWmED/view?usp=drivesdk",
 };
