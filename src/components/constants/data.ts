@@ -39,7 +39,7 @@ export const SOCIAL_LINKS = {
 
 export const FORM_ENDPOINT = "https://formspree.io/f/xojnvgzj";
 
-export const SKILLS = { // Keep only the skills you want to showcase and remove the rest
+export const SKILLS: Record<string, string[]> = { // Keep only the skills you want to showcase and remove the rest
   frontend: [
     "HTML", "CSS", "JavaScript", "TypeScript", "React", "Next.js",  "TailwindCSS", "Bootstrap", 
   ],
@@ -56,8 +56,16 @@ export const SKILLS = { // Keep only the skills you want to showcase and remove 
     "AWS", "Azure", 
   ],
   tools: [
-    "VS Code", "Git", "GitHub", "GitLab", , "Postman", "Figma", "Vite", "Windows", 
-  ],
+  "VS Code",
+  "Git",
+  "GitHub",
+  "GitLab",
+  "Postman",
+  "Figma",
+  "Vite",
+  "Windows",
+],
+
 };
 
 export const PROJECTS = [
