@@ -3,26 +3,25 @@
 
 export const ABOUT_ME = {
   name: "Anjali Gupta",
-  title: "Software Developer",
+  title: "Aspiring Software Developer",
   location: "New Delhi, IN",
   email: "anjaliramesh14012005@gmail.com",
   description: [
-    "Hey there! 👋 I’m Anjali, a third-year BTech student and aspiring software engineer who enjoys building practical, user-focused web applications. I primarily work with React and JavaScript, and I’m passionate about turning ideas into clean, functional products while continuously improving my problem-solving skills.",
+    "Hey there! 👋 I’m Anjali, a Final year BTech student and aspiring software engineer who enjoys building practical, user-focused web applications. I primarily work with React and JavaScript, and I’m passionate about turning ideas into clean, functional products while continuously improving my problem-solving skills.",
 
     "I’ve gained hands-on experience through academic projects, hackathons, and virtual internships, where I’ve worked on real-world problem statements and collaborative development. I enjoy learning new technologies, refining my fundamentals, and iterating on projects to make them more scalable and efficient.",
 
-    "Tech Stack: JavaScript, React, HTML, CSS, Tailwind",
+    "Tech Stack: Java, JavaScript, React, Nodejs,HTML, CSS, Tailwind",
     "Focus Areas: Web Development, DSA, CS Fundamentals",
     "Tools: VS Code, GitHub, Vite",
   ],
-  profileImage: "/profile.jpg", // Replace with your profile image
-  profileGif: "/profile-gif.gif", // Replace with your personalised gif
+  profileImage: "/profile.jpg", 
+  profileGif: "/profile-gif.gif", 
 };
 
 export const USER_NAMES = {
-  githubUsername: "https://github.com/AnjaliiRamesh",
-  leetcodeUsername: "https://leetcode.com/u/anjaliramesh14012005/", // remove or keep blank if you don't have a LeetCode profile
-  hashnodeUsername: "your-hashnode-username", // remove or keep blank if you don't have a Hashnode profile
+  githubUsername: "AnjaliiRamesh",
+  leetcodeUsername: "https://leetcode.com/u/anjaliramesh14012005/", 
 };
 
 export const SOCIAL_LINKS = {
@@ -30,15 +29,14 @@ export const SOCIAL_LINKS = {
   linkedin: "https://www.linkedin.com/in/anjali-gupta-496562246/",
   twitter: "https://twitter.com/your-twitter",
   leetcode: "https://leetcode.com/u/anjaliramesh14012005/",
-  // peerlist: "https://peerlist.io/your-peerlist", // remove or keep blank if you don't have a Peerlist profile
   instagram: "https://instagram.com/your-instagram",
   email: "mailto:anjaliramesh14012005@gmail.com",
-  // blog: "https://yourblog.com", // remove if you don't have a blog
-  resume: "href=https://drive.google.com/file/d/1j6xmVUppn8PkFz5wADlURM-FMNfJyucZ/view?usp=drivesdk",
+  // blog: "https://yourblog.com", 
+  resume: "https://drive.google.com/file/d/1-SqbE-Ri9dKdWEYYwDFwkSQo9IPqWmED/view?usp=drivesdk",
 };
 
-// Contact form endpoint (update with your own Formspree endpoint)
-export const FORM_ENDPOINT = "https://formspree.io/f/your-form-id";
+
+export const FORM_ENDPOINT = "https://formspree.io/f/xojnvgzj";
 
 export const SKILLS = { // Keep only the skills you want to showcase and remove the rest
   frontend: [
@@ -69,37 +67,78 @@ export const PROJECTS = [
     link: "https://randomly-neon.vercel.app/",
     github: "https://github.com/AnjaliiRamesh/Video-chat",
   },
-
+  {
+    name: "Talent-IQ",
+    description: "alent-iQ is a real-time technical interview and collaborative coding platform built to simulate live interview environments. It features a VSCode-powered code editor, secure authentication, and isolated backend code execution with automatic test-case evaluation. The platform supports 1-on-1 video interview rooms, real-time chat messaging, and screen sharing with mic/camera controls. Users receive instant feedback with success/fail notifications and can practice coding problems in solo mode. Designed with a scalable REST API architecture and background job handling, it ensures secure, efficient, and interactive coding experiences.",
+    tech: ["React.js","Express js", "MongoDB","Node.js","Tailwind.CSS"],
+    link: "https://talentiq-frontend3.onrender.com/",
+    github: "https://github.com/AnjaliiRamesh/Talent-IQ",
+  },
   {
     name: "Taskora",
-    description: "A task management application. where you can create , delete and edit your task",
-    tech: ["Next.js", "Tailwind.CSS"],
+    description: "Taskora is a full-stack task management application that allows users to efficiently manage their daily tasks through complete CRUD operations. Users can add, edit, update, and delete tasks with a smooth and intuitive interface. The application is designed to improve productivity by providing a simple yet structured task tracking system.",
+    tech: ["Next.js","Html", "javascript", "Tailwind.CSS"],
     link: "https://task-management-seven-ashen.vercel.app/",
     github: "https://github.com/AnjaliiRamesh/TaskManagement",
   },
-  // Add more projects as needed
+  
+ 
 ];
 
 export const EXPERIENCE = [
   {
-    company: "Company Name",
-    companyLink: "https://companyname.com/",
-    role: "Software Developer",
-    period: "Jan 2025 - Present",
-    location: "Remote/Location",
-    description: "Describe your responsibilities and achievements.",
-    skills: ["React", "Node.js", "XXXX"],
+    company: "Java Certification Program",
+    companyLink: "https://www.scaler.com/topics/course/java-beginners/",
+    role: "Java & OOP Trainee",
+    period: "2025",
+    location: "Remote",
+    description:
+      "Completed certification courses in Java Fundamentals and Object-Oriented Programming. Gained strong understanding of core Java concepts including data types, control flow, OOP principles (encapsulation, inheritance, polymorphism), and problem-solving using Java.",
+    skills: ["Java", "OOP", "Problem Solving", "Data Structures Basics"],
   },
-  // Add more experience as needed
+  {
+    company: "IIIT Allahabad Hackathon",
+    companyLink: "https://www.iiita.ac.in/",
+    role: "Hackathon Participant (36-Hour Coding Challenge)",
+    period: "2025",
+    location: "On-site",
+    description:
+      "Participated in a 36-hour competitive hackathon focused on building innovative tech solutions under strict time constraints. Collaborated in a team, designed system logic, and implemented core features while managing performance and debugging challenges.",
+    skills: ["Team Collaboration", "Rapid Prototyping", "Debugging", "Full-Stack Development"],
+  },
+  {
+    company: "Walmart Sparkathon & AWS Certification",
+    companyLink: "https://careers.walmart.com/sparkathon",
+    role: "Hackathon Participant & Cloud Learner",
+    period: "2025",
+    location: "Online",
+    description:
+      "Participated in Walmart Sparkathon, solving real-world problem statements through structured coding rounds. Additionally completed AWS certification coursework, gaining foundational knowledge in cloud computing, deployment models, and core AWS services.",
+    skills: ["DSA", "Cloud Computing", "AWS Basics", "Analytical Thinking"],
+  }
 ];
+
 
 export const EDUCATION = [
   {
-    degree: "Your Degree (e.g., B.Tech. in Computer Science)",
-    institution: "Your University",
-    institutionLink: "https://youruniversity.com/",
-    period: "2020 - 2024",
-    score: "XX % or GPA",
+    degree: "St. Andrew's Institute of technology and management",
+    institution: "Maharshi Dayanand University, Rohtak",
+    institutionLink: "https://saitm.ac.in/",
+    period: "2022 - 2026",
+    score: "7 cgpa",
   },
-  // Add more education as needed
+  {
+    degree: "Thomas Baptista Junior College",
+    institution: "Maharashtra State board of Higher Secondary schhol",
+    institutionLink: "https://www.thomasbaptistajc.com/php/home.php",
+    period: "2020 - 2022",
+    score: "79% ",
+  },{
+    degree: "Mount Carmel High school",
+    institution: "Maharashtra State board of Higher Secondary schho",
+    institutionLink: "https://mountcarmelvasai.com/",
+    period: "2020",
+    score: "7 cgpa",
+  },
+  
 ];
