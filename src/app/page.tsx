@@ -8,7 +8,7 @@ import Projects from "@/components/sections/projects";
 import Experience from "@/components/sections/experience";
 import Education from "@/components/sections/education";
 import Github from "@/components/sections/github";
-import LeetCode from "@/components/sections/leetcode";
+// import LeetCode from "@/components/sections/leetcode";
 import Blog from "@/components/sections/blog";
 import Contact from "@/components/sections/contact";
 import Footer from "@/components/sections/footer";

@@ -39,16 +39,16 @@ const SOCIAL_BUTTONS = [
     label: "Instagram",
     icon: <FaInstagram className="w-5 h-5" />,
   },
-  {
-    href: SOCIAL_LINKS.blog,
-    label: "Blog",
-    icon: (
-      <>
-        <FaBlog className="w-5 h-5" /> Blog
-      </>
-    ),
-    className: "flex items-center gap-2 font-medium",
-  },
+  // {
+  //   href: SOCIAL_LINKS.blog,
+  //   label: "Blog",
+  //   icon: (
+  //     <>
+  //       <FaBlog className="w-5 h-5" /> Blog
+  //     </>
+  //   ),
+  //   className: "flex items-center gap-2 font-medium",
+  // },
   {
     href: SOCIAL_LINKS.resume,
     label: "Resume",
