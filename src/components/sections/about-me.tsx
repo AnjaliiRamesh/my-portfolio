@@ -2,8 +2,8 @@ import Link from "next/link";
 import { ABOUT_ME, SOCIAL_LINKS } from "@/components/constants/data";
 import { Github, Linkedin, Mail, FileText } from "lucide-react";
 import { FaXTwitter, FaInstagram } from "react-icons/fa6";
-import { SiLeetcode, SiPeerlist } from "react-icons/si";
-import { FaBlog } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
+// import { FaBlog } from "react-icons/fa";
 
 // =============================================
 // SOCIAL BUTTONS DATA
