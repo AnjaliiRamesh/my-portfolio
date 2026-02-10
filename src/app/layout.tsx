@@ -13,11 +13,11 @@ const outfit = Outfit({
 
 export const metadata: Metadata = {
   title:
-    "Your Name - Portfolio Website",
+    "Anjali Gupta - Portfolio Website",
   description:
-    "Your portfolio showcasing your development projects and skills. Update this description with your own details.",
+    "Its a portfolio to showcase my skiils",
   keywords: [
-    "Your Name",
+    "Anjali Gupta",
     "Full Stack Developer",
     "React",
     "Next.js",
@@ -28,12 +28,12 @@ export const metadata: Metadata = {
     "Backend Developer",
     "JavaScript",
     "Node.js",
-    "Your City",
-    "Your Country",
+    "New Delhi",
+    "India",
   ],
-  authors: [{ name: "Your Name" }],
-  creator: "Your Name",
-  publisher: "Your Name",
+  authors: [{ name: "Anjali" }],
+  creator: "Anjali",
+  publisher: "Anjali",
   metadataBase: new URL("https://your-portfolio-url.com"),
   alternates: {
     canonical: "/",
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     title: "Your Name - Portfolio Website for a Full Stack Developer",
     description:
       "Personal portfolio showcasing skills, projects, experience, and more. Built with modern web technologies.",
-    siteName: "Your Name Portfolio",
+    siteName: "Anjali",
   },
   twitter: {
     card: "summary_large_image",
